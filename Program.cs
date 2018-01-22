@@ -9,7 +9,7 @@ namespace HelloWorld
     class Program
     {
         static void Main(string[] args)
-        { 
+        {
             // Part one greetings statement 
             //string messageOne = "Hello World";
             //string messageTwo = "I am Spartacus";
@@ -139,65 +139,70 @@ namespace HelloWorld
             //    Console.WriteLine("Sorry, you are staying home.");
             //}
 
-        //string vesuvius;
-        //string nola;
-        //string nuceria;
+            //string vesuvius;
+            //string nola;
+            //string nuceria;
 
-        //// solicit user input example
-        //Console.WriteLine("What is the weather in {0}?", city1);
-        //vesuvius = Console.ReadLine();
-        //Console.WriteLine("What is the weather in " + city2 + "?");
-        //nola = Console.ReadLine();
-        //Console.WriteLine("What is the weather in Nuceria?");
-        //nuceria = Console.ReadLine();
+            //// solicit user input example
+            //Console.WriteLine("What is the weather in {0}?", city1);
+            //vesuvius = Console.ReadLine();
+            //Console.WriteLine("What is the weather in " + city2 + "?");
+            //nola = Console.ReadLine();
+            //Console.WriteLine("What is the weather in Nuceria?");
+            //nuceria = Console.ReadLine();
 
-        // Part twelve
+            // Part twelve
 
-        //Console.WriteLine("What is your current rank soldier?");
-        //string rank = Console.ReadLine();
+            //Console.WriteLine("What is your current rank soldier?");
+            //string rank = Console.ReadLine();
 
-        //Console.WriteLine("What is your age soldier?");
-        //int age = int.Parse(Console.ReadLine());
+            //Console.WriteLine("What is your age soldier?");
+            //int age = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("What is your job soldier?");
-        string job = Console.ReadLine().ToLower();
+            //Console.WriteLine("What is your job soldier?");
+            //string job = Console.ReadLine().ToLower();
 
-        //if ((rank == "officer") || (age<=26))
-        //    {
-        //        Console.WriteLine("Get your gear, kiss your family goodbye, and grab your marching boots.");
-        //         }
-        //else if ((job == "cook") || (age<=26))
-        //    {
-        //        Console.WriteLine("My army has to eat. Pack your pots and pans.");
-        //    }
-        //else
-        //    {
-        //        Console.WriteLine("Sorry, you are staying home.");
-        //    }
+            //if ((rank == "officer") || (age<=26))
+            //    {
+            //        Console.WriteLine("Get your gear, kiss your family goodbye, and grab your marching boots.");
+            //         }
+            //else if ((job == "cook") || (age<=26))
+            //    {
+            //        Console.WriteLine("My army has to eat. Pack your pots and pans.");
+            //    }
+            //else
+            //    {
+            //        Console.WriteLine("Sorry, you are staying home.");
+            //    }
 
-        switch (job)
-            {
-                case "infantry":
-                    Console.WriteLine("You will carry a sword.");
-                    break;
-                case "archers":
-                    Console.WriteLine("You will carry a bow and arrow.");
-                    break;
-                case "supply":
-                    Console.WriteLine("You will carry pots and pans.");
-                    break;
-                case "specialist":
-                    Console.WriteLine("You will operate the catapult.");
-                    break;
-                default:
-                    Console.WriteLine("You will ride horseback.");
-                    break;
-                
-            }
-          
+            //switch (job)
+            //    {
+            //        case "infantry":
+            //            Console.WriteLine("You will carry a sword.");
+            //            break;
+            //        case "archers":
+            //            Console.WriteLine("You will carry a bow and arrow.");
+            //            break;
+            //        case "supply":
+            //            Console.WriteLine("You will carry pots and pans.");
+            //            break;
+            //        case "specialist":
+            //            Console.WriteLine("You will operate the catapult.");
+            //            break;
+            //        default:
+            //            Console.WriteLine("You will ride horseback.");
+            //            break;
 
-            // global variables: in Main, but located outside of any if statements, have access to that variable anywhere in Main
-            // local variables: defined in curly braces, in if statements, local to the method, case, statement, etc.
+            //    }
+
+
+            // part thirteen array examples
+
+            string[] foodList = new string[5];
+            foodList[0] = "Milk";
+            Console.WriteLine(foodList[0]);
+
+
 
 
 
