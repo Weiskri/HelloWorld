@@ -284,15 +284,50 @@ namespace HelloWorld
             //    Console.WriteLine(foodAmount[i]);
             //}
 
-            for (int i=0; i < foodAmount.Length; i++)
+            //for (int i=0; i < foodAmount.Length; i++)
+            //{
+            //    Console.WriteLine("Enter a value for " + foodList[i]);
+            //    foodAmount[i] = int.Parse(Console.ReadLine()); 
+            //}
+
+            //int size = 5; // Equals the number of columns and rows
+            //int i, k;
+            //for (i = 0; i <=size; i++)
+            //{
+            //    for (k = 0; k < i; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine("");
+            //}
+            //Console.ReadLine();
+
+            // math calculations
+            //int sum = 1;
+            //for (int i = 0; i <= 10; i++)
+            //{
+            //    sum = sum + 1;
+            //}
+            //Console.WriteLine(sum);
+
+            int sum = 1;
+            for (int i = 0; i <= 10; i++)
             {
-                Console.WriteLine("Enter a value for " + foodList[i]);
-                foodAmount[i] = int.Parse(Console.ReadLine()); 
+                sum = sum * 3;
             }
-            
+            Console.WriteLine(sum);
 
+            for (int i = 0; i <= 10; i++)
+            {
+                sum *= 3;
+            }
+            Console.WriteLine(sum);
 
-
+            for (int i = 0; i <= 10; i++)
+            {
+                sum += 3;
+            }
+            Console.WriteLine(sum);
 
 
 
